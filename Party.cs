@@ -2,7 +2,7 @@
 public class Party
 {
     public class Person {
-        construnctor(firstName, lastName) {
+       public string construnctor(firstName, lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
      }
@@ -11,8 +11,9 @@ public class Party
 
  
     public const Guests = [
-        new Person ('Bobby', 'Stone'),
-        new Person ('Stanly', 'Peters'),
-        new Person ('Max', 'Becker'),
+        new Person ("Bobby", "Stone"),
+        new Person ("Stanly", "Peters"),
+        new Person ("Max", "Becker"),
     ];   
 }
+
