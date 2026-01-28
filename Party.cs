@@ -6,13 +6,13 @@ public class Party
             public string lastName = lastName;
         }
         
-    public const Guests = [
-        new Person ("Bobby", "Stone"),
-        new Person ("Stanly", "Peters"),
-        new Person ("Max", "Becker"),
-    ];   
+    public const[] Guests = 
+        new Person ("Bobby", "Stone");
+        new Person ("Stanly", "Peters");
+        new Person ("Max", "Becker");
     
 }
+
 
 
 
