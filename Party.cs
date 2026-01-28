@@ -2,8 +2,8 @@
 public class Party
 {      
         public string Person(string firstName, string lastName) {
-            string firstName = firstName;
-            string lastName = lastName;
+            public string firstName = firstName;
+            public string lastName = lastName;
         }
         
     public string Guests = [
@@ -13,6 +13,7 @@ public class Party
     ];   
     
 }
+
 
 
 
