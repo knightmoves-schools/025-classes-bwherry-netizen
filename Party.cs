@@ -6,13 +6,14 @@ public class Party
             public string lastName = lastName;
         }
         
-    public string Guests = [
+    public const Guests = [
         new Person ("Bobby", "Stone"),
         new Person ("Stanly", "Peters"),
         new Person ("Max", "Becker"),
     ];   
     
 }
+
 
 
 
