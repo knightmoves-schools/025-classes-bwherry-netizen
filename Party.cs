@@ -1,7 +1,7 @@
 ﻿namespace knightmoves;
 public class Party
 {      
-        public string Person(string firstName, string lastName) {
+        public class Person (string firstName, string lastName) {
             public string firstName = firstName;
             public string lastName = lastName;
         }
@@ -13,6 +13,7 @@ public class Party
     ];   
     
 }
+
 
 
 
