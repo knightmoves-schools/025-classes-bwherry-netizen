@@ -7,12 +7,13 @@ public class Party
         }
         
     public const[] Guests = {
-       Person person = new Person ("Bobby", "Stone");
-       Person person = new Person ("Stanly", "Peters");
-       Person person = new Person ("Max", "Becker");
+       Person = new Person ("Bobby", "Stone");
+       Person = new Person ("Stanly", "Peters");
+       Person = new Person ("Max", "Becker");
             };
     
 }
+
 
 
 
