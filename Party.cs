@@ -1,14 +1,14 @@
 ﻿namespace knightmoves;
 public class Party
 {
-    public string Person {
+    public string Person {{
         
         public string construnctor(firstName, lastName) {
             string firstName = firstName;
             string lastName = lastName;
         }
         
-    }
+    }}
 
     
     public string Guests = [
@@ -18,6 +18,7 @@ public class Party
     ];   
     
 }
+
 
 
 
