@@ -1,19 +1,20 @@
 ﻿namespace knightmoves;
 public class Party
 {
-    public class Person {
+    public string Person {
        public string construnctor(firstName, lastName) {
-            this.firstName = firstName;
-            this.lastName = lastName;
+            string firstName = firstName;
+            string lastName = lastName;
      }
 }
 
 
  
-    public const Guests = [
+    public string Guests = [
         new Person ("Bobby", "Stone"),
         new Person ("Stanly", "Peters"),
         new Person ("Max", "Becker"),
     ];   
 }
+
 
