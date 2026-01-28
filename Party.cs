@@ -11,16 +11,14 @@ public class Party
         }
         
 
-        public class Person () {
-            public string firstName;
-            public string lastName;
+        public Party.Guests()
 
-                public Person (string firstName, string lastName) {
-                        this.firstName = firstName;
-                        this.lastname = lastName;
-                }
+        public class Person (string firstName, string lastName) {
+                this.firstName = firstName;
+                this.lastname = lastName;
         }            
 }
+
 
 
 
