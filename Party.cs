@@ -9,9 +9,10 @@ public class Party
     public const[] Guests = 
         new Person ("Bobby", "Stone"),
         new Person ("Stanly", "Peters"),
-        new Person ("Max", "Becker"),;
+        new Person ("Max", "Becker"),
     
 }
+
 
 
 
