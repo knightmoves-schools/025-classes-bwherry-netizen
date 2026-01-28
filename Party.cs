@@ -1,17 +1,27 @@
 ﻿namespace knightmoves;
 public class Party
 {      
-        public class Person (string firstName, string lastName) {
-            public string firstName = firstName;
-            public string lastName = lastName;
+        public void Guests () {
+                Person firstGuest = new Person("Dave", "Miller");
+                Person seccondGuest = new Person("Jack", "Kennedy");
+                Person thirdGuest = new person("Harry", "Fitzgerald");
+
+
+                
         }
         
-    public const[] Guests =
-       Person = new Person ("Bobby", "Stone");
-       Person = new Person ("Stanly", "Peters");
-       Person = new Person ("Max", "Becker");
-    
+
+        public class Person () {
+            public string firstName;
+            public string lastName;
+
+                public Person (string firstName, string lastName) {
+                        this.firstName = firstName;
+                        this.lastname = lastName;
+                }
+        }            
 }
+
 
 
 
