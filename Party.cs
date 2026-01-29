@@ -6,11 +6,14 @@ public class Party
                 public string lastname = lastName;
         }  
         
-        public void Guests () {
+        public void[] Guests () {
                 Person firstGuest = new Person("Dave", "Miller");
                 Person seccondGuest = new Person("Jack", "Kennedy");
                 Person thirdGuest = new person("Harry", "Fitzgerald");        
-        }       
+        }    
+
+        public Party.Guests()
 }
+
 
 
