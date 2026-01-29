@@ -1,19 +1,23 @@
 ﻿namespace knightmoves;
 public class Party
 {      
-        public class Person (string firstName, string lastName) {
-                public string firstName = firstName;
-                public string lastname = lastName;
+        public class Person {
+                public string firstName { get; set; }
+                public string lastname { get; set; }
+
+                publick Person (string firstName, string lastName) {
+                        FirstName = firstName;
+                        LastName = lastName;
+                }
         }  
         
-        public void[] Guests () {
-                Person firstGuest = new Person("Dave", "Miller");
-                Person seccondGuest = new Person("Jack", "Kennedy");
-                Person thirdGuest = new person("Harry", "Fitzgerald");        
-        }    
-
-        public Party.Guests()
+        public Person[] Guests = new Person[] {
+                new Person("Dave", "Miller");
+                new Person("Jack", "Kennedy");
+                new person("Harry", "Fitzgerald");        
+        };
 }
+
 
 
 
