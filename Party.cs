@@ -6,14 +6,14 @@ public class Party
     {
         new Person("Dave", "Miller"),
         new Person("Jack", "Kennedy"),
-        new person("Harry", "Fitzgerald")        
+        new Person("Harry", "Fitzgerald")        
     };
 }
 
 public class Person 
 {
     public string FirstName { get; set; }
-    public string Lastname { get; set; }
+    public string LastName { get; set; }
         
     public Person (string firstName, string lastName) 
         {
@@ -21,6 +21,7 @@ public class Person
                 LastName = lastName;
         }
 }  
+
 
 
 
