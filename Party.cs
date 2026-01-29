@@ -5,7 +5,7 @@ public class Party
                 public string firstName { get; set; }
                 public string lastname { get; set; }
 
-                publick Person (string firstName, string lastName) {
+                public Person (string firstName, string lastName) {
                         FirstName = firstName;
                         LastName = lastName;
                 }
@@ -17,6 +17,7 @@ public class Party
                 new person("Harry", "Fitzgerald");        
         };
 }
+
 
 
 
