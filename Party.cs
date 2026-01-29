@@ -10,9 +10,7 @@ public class Party
                 Person firstGuest = new Person("Dave", "Miller");
                 Person seccondGuest = new Person("Jack", "Kennedy");
                 Person thirdGuest = new person("Harry", "Fitzgerald");        
-        }
-        
-
-        public Party.Guests()          
+        }       
 }
+
 
