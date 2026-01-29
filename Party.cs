@@ -2,8 +2,8 @@
 public class Party
 {      
         public class Person (string firstName, string lastName) {
-                this.firstName = firstName;
-                this.lastname = lastName;
+                public string firstName = firstName;
+                public string lastname = lastName;
         }  
         
         public void Guests () {
@@ -15,3 +15,4 @@ public class Party
 
         public Party.Guests()          
 }
+
